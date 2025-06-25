@@ -1,0 +1,27 @@
+#SubHead {
+    text-align: center;
+}
+
+#Head{
+    font-size: 50px;
+    text-align: center;
+}
+
+#resizeButton{
+    align-content: center;
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+    margin: auto 0;
+}
+
+#dogImage{
+    width: 2px;
+    border-radius: 7%;
+    display:block;
+    margin: 0 auto;
+}
+
+html{
+    background-color: black;
+}
