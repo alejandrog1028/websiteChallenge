@@ -1,4 +1,11 @@
-document.getElementById("resizeButton").addEventListener("click", function (){
-    document.getElementById("dogImage").style.width = "500px";
-    document.getElementById("dogImage").style.border = "20px groove blue";
+document.getElementById("resizeButton").addEventListener("click", function () {
+  const image = document.getElementById("dogImage");
+
+  if (image.style.width === "500px") {
+    image.style.width = "2px";
+    image.style.border = "none";
+  } else {
+    image.style.width = "500px";
+    image.style.border = "20px groove blue";
+  }
 });
